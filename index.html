@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(pic1.jpg); /* Path to your background image */
+      background-size: cover;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.7); /* Adding a semi-transparent white background */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+    }
+    .menu-category {
+      margin-bottom: 20px;
+    }
+    .category-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .menu-item {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+    }
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+    .item-name {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .item-description {
+      margin-bottom: 10px;
+    }
+    .item-price {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Restaurant Menu</h1>
+    
+    <div class="menu-category">
+      <div class="category-name">Chinese</div>
+      <div class="menu">
+        <div class="menu-item">
+          <div class="item-name">Spring Rolls</div>
+          <div class="item-description">Crispy spring rolls filled with vegetables and served with sweet chili sauce.</div>
+          <div class="item-price">$8</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Kung Pao Chicken</div>
+          <div class="item-description">Stir-fried chicken with peanuts, vegetables, and chili peppers.</div>
+          <div class="item-price">$12</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Sweet and Sour Pork</div>
+          <div class="item-description">Crispy pork pieces tossed in a tangy sweet and sour sauce.</div>
+          <div class="item-price">$10</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Mapo Tofu</div>
+          <div class="item-description">Spicy tofu and minced meat cooked in a flavorful sauce.</div>
+          <div class="item-price">$11</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Chow Mein</div>
+          <div class="item-description">Stir-fried noodles with vegetables and your choice of protein.</div>
+          <div class="item-price">$9</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <div class="category-name">Italian</div>
+      <div class="menu">
+        <div class="menu-item">
+          <div class="item-name">Margherita Pizza</div>
+          <div class="item-description">Classic pizza topped with tomato sauce, mozzarella cheese, and fresh basil.</div>
+          <div class="item-price">$10</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Spaghetti Carbonara</div>
+          <div class="item-description">Spaghetti pasta with creamy egg and bacon sauce.</div>
+          <div class="item-price">$14</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Lasagna</div>
+          <div class="item-description">Layered pasta dish with meat sauce, ricotta cheese, and melted mozzarella.</div>
+          <div class="item-price">$16</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Fettuccine Alfredo</div>
+          <div class="item-description">Creamy Alfredo sauce tossed with fettuccine pasta.</div>
+          <div class="item-price">$13</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Caprese Salad</div>
+          <div class="item-description">Fresh salad with tomatoes, mozzarella cheese, basil, and balsamic glaze.</div>
+          <div class="item-price">$9</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <div class="category-name">Indian</div>
+      <div class="menu">
+        <div class="menu-item">
+          <div class="item-name">Butter Chicken</div>
+          <div class="item-description">Tender chicken cooked in a creamy tomato sauce with butter and spices.</div>
+          <div class="item-price">$15</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Vegetable Biryani</div>
+          <div class="item-description">Fragrant basmati rice cooked with mixed vegetables and aromatic spices.</div>
+          <div class="item-price">$12</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Paneer Tikka Masala</div>
+          <div class="item-description">Marinated paneer cheese cooked in a creamy tomato-based sauce.</div>
+          <div class="item-price">$14</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Naan Bread</div>
+          <div class="item-description">Soft and fluffy Indian bread baked in a tandoor oven.</div>
+          <div class="item-price">$3</div>
+        </div>
+        <div class="menu-item">
+          <div class="item-name">Samosa</div>
+          <div class="item-description">Crispy pastry filled with spiced potatoes and peas.</div>
+          <div class="item-price">$5</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <div class="category-name">Japanese</div>
+      <div class="menu">
+        <div class="menu-item">
+          <div class="item-name">Sushi</div>
+          <div class="item-description">Assorted fresh fish and rice rolls served with soy sauce and wasabi.</div>
+          <div class="item-price">$18</div>
+        </div>
+        <div class="menu-item">
+          <div class="
+
+
